@@ -1,31 +1,29 @@
-module.exports = {
-  purge: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
-  mode: 'jit',
-  darkMode: false, // or 'media' or 'class'
-  variants: {
-    extend: {},
-  },
-  theme: {
-    extend: {
-      typography: (theme) => ({
-        DEFAULT: {
-          css: {
-            hr: {
-              borderColor: theme('colors.gray.200'),
-              borderTopWidth: '1px',
-              marginTop: '2rem',
-              marginBottom: '2rem',
-            },
-            'ol > li::before': {
-              color: theme('colors.gray.900'),
-            },
-            'ul > li::before': {
-              backgroundColor: theme('colors.gray.900'),
-            },
-          },
-        },
-      }),
-    },
-  },
-  plugins: [require('@tailwindcss/typography')],
+export const purge=['./index.html','./src/**/*.{js,jsx,ts,tsx}'];
+export const mode='jit';
+export const darkMode=false;
+export const variants={
+extend: {},
 };
+export const theme={
+extend: {
+typography: (theme) => ({
+DEFAULT: {
+css: {
+hr: {
+borderColor: theme('colors.gray.200'),
+borderTopWidth: '1px',
+marginTop: '2rem',
+marginBottom: '2rem',
+},
+'ol > li::before': {
+color: theme('colors.gray.900'),
+},
+'ul > li::before': {
+backgroundColor: theme('colors.gray.900'),
+},
+},
+},
+}),
+},
+};
+export const plugins=[require('@tailwindcss/typography')];
