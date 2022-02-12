@@ -19,7 +19,7 @@
     "postcss": "^8.3.6",
     "react": "18.0.0-alpha-e6be2d531",
     "react-dom": "18.0.0-alpha-e6be2d531",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.2.1",
     "tailwindcss": "^2.2.9"
   }
 }
