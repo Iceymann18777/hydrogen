@@ -16,7 +16,7 @@
     "autoprefixer": "^10.3.4",
     "focus-trap-react": "^8.8.1",
     "graphql-tag": "^2.12.4",
-    "postcss": "^8.3.6",
+    "postcss": "^8.4.5",
     "react": "18.0.0-alpha-e6be2d531",
     "react-dom": "18.0.0-alpha-e6be2d531",
     "react-router-dom": "^5.2.0",
